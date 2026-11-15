@@ -72,7 +72,11 @@ class Listing {
       };
 
   /// Store + seller, e.g. "Noon · EgyGamer".
-  String get where => seller == null || seller!.isEmpty ? store : '$store · $seller';
+  String get where {
+    final s = seller?.trim() ?? '';
+    final same = s.toLowerCase().replaceAll(' ', '') == store.toLowerCase().replaceAll(' ', '');
+    return s.isEmpty || same ? store : '$store · $s';
+  }
 
   int? get change => prevPrice == null ? null : price - prevPrice!;
   bool get isNew => prevPrice == null;

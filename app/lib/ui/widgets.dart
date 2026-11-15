@@ -71,8 +71,9 @@ class ChangeBadge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (change == null || change == 0) {
-      return Text(change == null ? 'new' : 'same',
+    if (change == null) return const SizedBox.shrink();
+    if (change == 0) {
+      return Text('same',
           style: TextStyle(color: Palette.muted, fontSize: small ? 11 : 12, fontWeight: FontWeight.w600));
     }
     final up = change! > 0;
