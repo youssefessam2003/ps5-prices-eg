@@ -6,3 +6,4 @@ app/.dart_tool/
 app/.flutter-plugins*
 app/.idea/
 .claude/
+release/
