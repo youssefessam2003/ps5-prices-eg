@@ -1,0 +1,8 @@
+logs/
+__pycache__/
+*.pyc
+app/build/
+app/.dart_tool/
+app/.flutter-plugins*
+app/.idea/
+.claude/
