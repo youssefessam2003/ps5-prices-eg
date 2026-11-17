@@ -5,182 +5,478 @@
    "status": "ok",
    "count": 4,
    "in_stock": 4,
-   "fetched_at": "2026-11-15T10:00:43+02:00",
-   "seconds": 30.1
+   "search_pages": 9,
+   "warnings": [
+    "Search page limit reached (3); coverage is partial"
+   ],
+   "search_results": 212,
+   "fetched_at": "2026-11-15T14:04:40+02:00",
+   "seconds": 64.6,
+   "last_success_at": "2026-11-15T14:04:40+02:00"
   },
   "noon": {
    "status": "ok",
-   "count": 41,
-   "in_stock": 41,
-   "fetched_at": "2026-11-15T10:08:13+02:00",
-   "seconds": 449.9
+   "count": 44,
+   "in_stock": 44,
+   "search_pages": 4,
+   "search_results": 65,
+   "fetched_at": "2026-11-15T14:13:15+02:00",
+   "seconds": 515.0,
+   "last_success_at": "2026-11-15T14:13:15+02:00"
   },
   "jumia": {
    "status": "ok",
    "count": 5,
    "in_stock": 5,
-   "fetched_at": "2026-11-15T10:08:24+02:00",
-   "seconds": 11.5
+   "search_pages": 2,
+   "search_results": 47,
+   "fetched_at": "2026-11-15T14:13:26+02:00",
+   "seconds": 11.1,
+   "last_success_at": "2026-11-15T14:13:26+02:00"
   },
   "carrefour": {
    "status": "ok",
    "count": 1,
    "in_stock": 1,
-   "fetched_at": "2026-11-15T10:08:36+02:00",
-   "seconds": 12.4
+   "search_pages": 2,
+   "search_results": 10,
+   "fetched_at": "2026-11-15T14:13:39+02:00",
+   "seconds": 13.0,
+   "last_success_at": "2026-11-15T14:13:39+02:00"
   },
   "btech": {
    "status": "ok",
-   "count": 13,
-   "in_stock": 13,
-   "fetched_at": "2026-11-15T10:08:57+02:00",
-   "seconds": 20.4
+   "count": 17,
+   "in_stock": 17,
+   "search_pages": 1,
+   "product_links": 35,
+   "products_examined": 35,
+   "fetched_at": "2026-11-15T14:14:03+02:00",
+   "seconds": 23.4,
+   "last_success_at": "2026-11-15T14:14:03+02:00"
   },
   "2b": {
    "status": "ok",
    "count": 1,
    "in_stock": 1,
-   "fetched_at": "2026-11-15T10:09:05+02:00",
-   "seconds": 8.0
+   "search_pages": 1,
+   "product_links": 1,
+   "products_examined": 1,
+   "fetched_at": "2026-11-15T14:14:12+02:00",
+   "seconds": 8.9,
+   "last_success_at": "2026-11-15T14:14:12+02:00"
   },
   "raneen": {
    "status": "ok",
    "count": 1,
    "in_stock": 1,
-   "fetched_at": "2026-11-15T10:09:15+02:00",
-   "seconds": 9.8
+   "search_pages": 1,
+   "product_links": 1,
+   "products_examined": 1,
+   "fetched_at": "2026-11-15T14:14:43+02:00",
+   "seconds": 31.0,
+   "last_success_at": "2026-11-15T14:14:43+02:00"
   },
   "raya": {
    "status": "ok",
-   "count": 0,
+   "count": 1,
    "in_stock": 0,
-   "fetched_at": "2026-11-15T10:09:28+02:00",
-   "seconds": 13.6
+   "search_pages": 1,
+   "product_links": 1,
+   "products_examined": 1,
+   "fetched_at": "2026-11-15T14:14:52+02:00",
+   "seconds": 9.5,
+   "last_success_at": "2026-11-15T14:14:52+02:00"
   },
   "elaraby": {
    "status": "ok",
    "count": 1,
    "in_stock": 0,
-   "fetched_at": "2026-11-15T10:09:36+02:00",
-   "seconds": 7.3
+   "search_pages": 1,
+   "product_links": 1,
+   "products_examined": 1,
+   "fetched_at": "2026-11-15T14:15:01+02:00",
+   "seconds": 8.8,
+   "last_success_at": "2026-11-15T14:15:01+02:00"
   },
   "dubaiphone": {
-   "status": "ok",
-   "count": 0,
-   "in_stock": 0,
-   "fetched_at": "2026-11-15T10:09:42+02:00",
-   "seconds": 6.5
+   "status": "error",
+   "error": "RuntimeError: No console product links discovered; check search route, rendering or source configuration",
+   "search_pages": 1,
+   "product_links": 0,
+   "fetched_at": "2026-11-15T14:15:08+02:00",
+   "seconds": 6.6
   },
   "elnekhely": {
-   "status": "ok",
-   "count": 0,
-   "in_stock": 0,
-   "fetched_at": "2026-11-15T10:09:48+02:00",
-   "seconds": 6.2
+   "status": "error",
+   "error": "RuntimeError: No console product links discovered; check search route, rendering or source configuration",
+   "search_pages": 2,
+   "product_links": 0,
+   "fetched_at": "2026-11-15T14:15:19+02:00",
+   "seconds": 11.2
   },
   "games2egypt": {
    "status": "ok",
-   "count": 20,
-   "in_stock": 1,
-   "fetched_at": "2026-11-15T10:10:22+02:00",
-   "seconds": 33.6
+   "count": 21,
+   "in_stock": 2,
+   "search_pages": 2,
+   "product_links": 22,
+   "products_examined": 22,
+   "fetched_at": "2026-11-15T14:15:41+02:00",
+   "seconds": 21.9,
+   "last_success_at": "2026-11-15T14:15:41+02:00"
   },
   "gamesworld": {
    "status": "ok",
-   "count": 11,
+   "count": 14,
    "in_stock": 2,
-   "fetched_at": "2026-11-15T10:11:47+02:00",
-   "seconds": 85.4
+   "search_pages": 1,
+   "product_links": 32,
+   "products_examined": 32,
+   "fetched_at": "2026-11-15T14:16:57+02:00",
+   "seconds": 76.4,
+   "last_success_at": "2026-11-15T14:16:57+02:00"
   },
   "gamerzlounge": {
    "status": "ok",
    "count": 4,
    "in_stock": 0,
-   "fetched_at": "2026-11-15T10:12:05+02:00",
-   "seconds": 17.3
+   "search_pages": 1,
+   "product_links": 4,
+   "products_examined": 4,
+   "fetched_at": "2026-11-15T14:17:06+02:00",
+   "seconds": 9.0,
+   "last_success_at": "2026-11-15T14:17:06+02:00"
   },
   "kaafo": {
-   "status": "ok",
-   "count": 0,
-   "in_stock": 0,
-   "fetched_at": "2026-11-15T10:12:18+02:00",
-   "seconds": 13.2
+   "status": "error",
+   "error": "RuntimeError: No console product links discovered; check search route, rendering or source configuration",
+   "search_pages": 4,
+   "warnings": [
+    "Listing page limit reached (4); coverage is partial"
+   ],
+   "product_links": 0,
+   "fetched_at": "2026-11-15T14:17:30+02:00",
+   "seconds": 24.0
   },
   "shamy": {
    "status": "ok",
-   "count": 4,
+   "count": 12,
    "in_stock": 4,
-   "fetched_at": "2026-11-15T10:12:25+02:00",
-   "seconds": 6.7
+   "catalog_pages": 1,
+   "products_examined": 13,
+   "fetched_at": "2026-11-15T14:17:31+02:00",
+   "seconds": 0.8,
+   "last_success_at": "2026-11-15T14:17:31+02:00"
   },
   "xprs": {
    "status": "ok",
-   "count": 3,
+   "count": 5,
    "in_stock": 3,
-   "fetched_at": "2026-11-15T10:12:31+02:00",
-   "seconds": 6.7
+   "search_pages": 9,
+   "product_links": 14,
+   "products_examined": 14,
+   "warnings": [
+    "429 Client Error: Too Many Requests for url: https://myxprs.com/search?q=%D8%A8%D9%84%D8%A7%D9%8A%D8%B3%D8%AA%D9%8A%D8%B4%D9%86+5&type=product&page=1"
+   ],
+   "fetched_at": "2026-11-15T14:17:46+02:00",
+   "seconds": 14.9,
+   "last_success_at": "2026-11-15T14:17:46+02:00"
   },
   "tharaa": {
    "status": "ok",
    "count": 1,
    "in_stock": 1,
-   "fetched_at": "2026-11-15T10:12:38+02:00",
-   "seconds": 6.7
+   "search_pages": 14,
+   "warnings": [
+    "Search page limit reached for playstation 5; coverage is partial",
+    "Search page limit reached for ps5; coverage is partial",
+    "Search page limit reached for بلايستيشن 5; coverage is partial",
+    "429 Client Error: Too Many Requests for url: https://tharaastore.com/search?q=%D8%A8%D9%84%D8%A7%D9%8A+%D8%B3%D8%AA%D9%8A%D8%B4%D9%86+5&type=product&page=2"
+   ],
+   "product_links": 12,
+   "products_examined": 12,
+   "fetched_at": "2026-11-15T14:17:59+02:00",
+   "seconds": 13.1,
+   "last_success_at": "2026-11-15T14:17:59+02:00"
   },
   "dream2000": {
-   "status": "error",
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://dream2000.com/products.json?limit=250&page=1",
-   "fetched_at": "2026-11-15T02:58:28+02:00",
-   "seconds": 120.6
+   "status": "ok",
+   "count": 2,
+   "in_stock": 2,
+   "search_pages": 7,
+   "product_links": 3,
+   "products_examined": 3,
+   "warnings": [
+    "429 Client Error: Too Many Requests for url: https://dream2000.com/en/search?q=ps5&type=product&page=3"
+   ],
+   "fetched_at": "2026-11-15T14:18:10+02:00",
+   "seconds": 10.9,
+   "last_success_at": "2026-11-15T14:18:10+02:00"
   },
   "ahw": {
    "status": "ok",
-   "count": 0,
+   "count": 1,
    "in_stock": 0,
-   "fetched_at": "2026-11-15T10:14:45+02:00",
-   "seconds": 6.9
+   "search_pages": 12,
+   "product_links": 1,
+   "products_examined": 1,
+   "fetched_at": "2026-11-15T14:18:19+02:00",
+   "seconds": 8.6,
+   "last_success_at": "2026-11-15T14:18:19+02:00"
   },
   "miami": {
    "status": "ok",
    "count": 2,
    "in_stock": 1,
-   "fetched_at": "2026-11-15T10:14:56+02:00",
-   "seconds": 10.7
+   "search_pages": 4,
+   "products_examined": 9,
+   "fetched_at": "2026-11-15T14:18:26+02:00",
+   "seconds": 7.6,
+   "last_success_at": "2026-11-15T14:18:26+02:00"
   },
   "ts3era": {
    "status": "ok",
-   "count": 5,
+   "count": 6,
    "in_stock": 1,
-   "fetched_at": "2026-11-15T10:15:08+02:00",
-   "seconds": 11.9
+   "search_pages": 4,
+   "products_examined": 96,
+   "fetched_at": "2026-11-15T14:18:35+02:00",
+   "seconds": 8.4,
+   "last_success_at": "2026-11-15T14:18:35+02:00"
   },
   "shiko": {
    "status": "ok",
    "count": 1,
    "in_stock": 1,
-   "fetched_at": "2026-11-15T10:15:14+02:00",
-   "seconds": 6.1
+   "search_pages": 4,
+   "products_examined": 15,
+   "fetched_at": "2026-11-15T14:18:37+02:00",
+   "seconds": 2.6,
+   "last_success_at": "2026-11-15T14:18:37+02:00"
   },
   "avocato": {
    "status": "ok",
    "count": 0,
    "in_stock": 0,
-   "fetched_at": "2026-11-15T10:15:22+02:00",
-   "seconds": 7.4
+   "search_pages": 4,
+   "products_examined": 0,
+   "warnings": [
+    "No matching console offers returned; inspect source coverage"
+   ],
+   "fetched_at": "2026-11-15T14:18:42+02:00",
+   "seconds": 4.8,
+   "last_success_at": "2026-11-15T14:18:42+02:00"
   },
   "zaky": {
    "status": "ok",
    "count": 0,
    "in_stock": 0,
-   "fetched_at": "2026-11-15T10:15:30+02:00",
-   "seconds": 8.4
+   "search_pages": 4,
+   "products_examined": 0,
+   "warnings": [
+    "No matching console offers returned; inspect source coverage"
+   ],
+   "fetched_at": "2026-11-15T14:18:47+02:00",
+   "seconds": 5.1,
+   "last_success_at": "2026-11-15T14:18:47+02:00"
   },
   "mobilaty": {
    "status": "ok",
    "count": 0,
    "in_stock": 0,
-   "fetched_at": "2026-11-15T10:15:38+02:00",
-   "seconds": 8.2
+   "search_pages": 4,
+   "products_examined": 3,
+   "warnings": [
+    "No matching console offers returned; inspect source coverage"
+   ],
+   "fetched_at": "2026-11-15T14:18:53+02:00",
+   "seconds": 5.7,
+   "last_success_at": "2026-11-15T14:18:53+02:00"
+  },
+  "gamesspot": {
+   "status": "ok",
+   "count": 4,
+   "in_stock": 0,
+   "search_pages": 2,
+   "product_links": 4,
+   "products_examined": 4,
+   "fetched_at": "2026-11-15T14:19:18+02:00",
+   "seconds": 25.2,
+   "last_success_at": "2026-11-15T14:19:18+02:00"
+  },
+  "gamerscolony": {
+   "status": "ok",
+   "count": 12,
+   "in_stock": 9,
+   "search_pages": 3,
+   "products_examined": 32,
+   "fetched_at": "2026-11-15T14:19:23+02:00",
+   "seconds": 4.5,
+   "last_success_at": "2026-11-15T14:19:23+02:00"
+  },
+  "gamecave": {
+   "status": "ok",
+   "count": 4,
+   "in_stock": 3,
+   "catalog_pages": 1,
+   "products_examined": 6,
+   "fetched_at": "2026-11-15T14:19:23+02:00",
+   "seconds": 0.5,
+   "last_success_at": "2026-11-15T14:19:23+02:00"
+  },
+  "ennap": {
+   "status": "ok",
+   "count": 11,
+   "in_stock": 0,
+   "search_pages": 10,
+   "product_links": 4,
+   "products_examined": 4,
+   "warnings": [
+    "429 Client Error: Too Many Requests for url: https://ennap.com/search?q=playstation+5+disc&type=product&page=1"
+   ],
+   "fetched_at": "2026-11-15T14:19:32+02:00",
+   "seconds": 9.4,
+   "last_success_at": "2026-11-15T14:19:32+02:00"
+  },
+  "cairodrop": {
+   "status": "ok",
+   "count": 2,
+   "in_stock": 2,
+   "catalog_pages": 1,
+   "products_examined": 12,
+   "fetched_at": "2026-11-15T14:19:33+02:00",
+   "seconds": 1.0,
+   "last_success_at": "2026-11-15T14:19:33+02:00"
+  },
+  "rizkalla": {
+   "status": "ok",
+   "count": 1,
+   "in_stock": 1,
+   "catalog_pages": 1,
+   "products_examined": 1,
+   "fetched_at": "2026-11-15T14:19:34+02:00",
+   "seconds": 0.5,
+   "last_success_at": "2026-11-15T14:19:34+02:00"
+  },
+  "ehab": {
+   "status": "ok",
+   "count": 2,
+   "in_stock": 2,
+   "search_pages": 4,
+   "products_examined": 14,
+   "fetched_at": "2026-11-15T14:19:37+02:00",
+   "seconds": 3.3,
+   "last_success_at": "2026-11-15T14:19:37+02:00"
+  },
+  "alfrensia": {
+   "status": "ok",
+   "count": 3,
+   "in_stock": 0,
+   "search_pages": 4,
+   "products_examined": 17,
+   "fetched_at": "2026-11-15T14:19:40+02:00",
+   "seconds": 2.7,
+   "last_success_at": "2026-11-15T14:19:40+02:00"
+  },
+  "egygamer": {
+   "status": "ok",
+   "count": 12,
+   "in_stock": 2,
+   "search_pages": 2,
+   "product_links": 12,
+   "products_examined": 12,
+   "fetched_at": "2026-11-15T14:19:52+02:00",
+   "seconds": 11.8,
+   "last_success_at": "2026-11-15T14:19:52+02:00"
+  },
+  "tahagame": {
+   "status": "ok",
+   "count": 1,
+   "in_stock": 1,
+   "search_pages": 2,
+   "product_links": 4,
+   "products_examined": 4,
+   "fetched_at": "2026-11-15T14:19:57+02:00",
+   "seconds": 5.3,
+   "last_success_at": "2026-11-15T14:19:57+02:00"
+  },
+  "imedia": {
+   "status": "ok",
+   "count": 3,
+   "in_stock": 2,
+   "search_pages": 2,
+   "product_links": 14,
+   "products_examined": 14,
+   "fetched_at": "2026-11-15T14:20:20+02:00",
+   "seconds": 22.8,
+   "last_success_at": "2026-11-15T14:20:20+02:00"
+  },
+  "sharafdg": {
+   "status": "error",
+   "error": "RuntimeError: Product https://egypt.sharafdg.com/product/sony-playstation-5-slim-console-2023-cd-version-white/: HTTPError: 403 Client Error: Forbidden for url: https://egypt.sharafdg.com/product/sony-playstation-5-slim-console-2023-cd-version-white/; Product https://egypt.sharafdg.com/product/sony-",
+   "search_pages": 1,
+   "product_links": 2,
+   "warnings": [
+    "Product https://egypt.sharafdg.com/product/sony-playstation-5-slim-console-2023-cd-version-white/: HTTPError: 403 Client Error: Forbidden for url: https://egypt.sharafdg.com/product/sony-playstation-5-slim-console-2023-cd-version-white/",
+    "Product https://egypt.sharafdg.com/product/sony-playstation-5-slim-console-2023-digital-version-white/: HTTPError: 403 Client Error: Forbidden for url: https://egypt.sharafdg.com/product/sony-playstation-5-slim-console-2023-digital-version-white/"
+   ],
+   "fetched_at": "2026-11-15T14:20:22+02:00",
+   "seconds": 1.7
+  },
+  "aghezty": {
+   "status": "ok",
+   "count": 2,
+   "in_stock": 2,
+   "search_pages": 1,
+   "product_links": 2,
+   "products_examined": 2,
+   "fetched_at": "2026-11-15T14:20:24+02:00",
+   "seconds": 2.4,
+   "last_success_at": "2026-11-15T14:20:24+02:00"
+  },
+  "elshennawy": {
+   "status": "ok",
+   "count": 1,
+   "in_stock": 1,
+   "search_pages": 1,
+   "product_links": 1,
+   "products_examined": 1,
+   "fetched_at": "2026-11-15T14:20:31+02:00",
+   "seconds": 6.6,
+   "last_success_at": "2026-11-15T14:20:31+02:00"
+  },
+  "iklinik": {
+   "status": "ok",
+   "count": 1,
+   "in_stock": 1,
+   "search_pages": 1,
+   "product_links": 2,
+   "products_examined": 2,
+   "fetched_at": "2026-11-15T14:20:34+02:00",
+   "seconds": 3.3,
+   "last_success_at": "2026-11-15T14:20:34+02:00"
+  },
+  "vodafone": {
+   "status": "ok",
+   "count": 1,
+   "in_stock": 1,
+   "product_links": 1,
+   "products_examined": 1,
+   "fetched_at": "2026-11-15T14:20:36+02:00",
+   "seconds": 2.1,
+   "last_success_at": "2026-11-15T14:20:36+02:00"
+  },
+  "sigma": {
+   "status": "ok",
+   "count": 1,
+   "in_stock": 0,
+   "search_pages": 1,
+   "product_links": 3,
+   "products_examined": 3,
+   "fetched_at": "2026-11-15T14:20:39+02:00",
+   "seconds": 2.7,
+   "last_success_at": "2026-11-15T14:20:39+02:00"
   }
  },
  "listings": [
@@ -198,23 +494,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:00:43+02:00"
-  },
-  {
-   "id": "amazon:B0FZDC5VQX#Amazon.eg",
-   "source": "amazon",
-   "store": "Amazon.eg",
-   "seller": "Amazon.eg",
-   "title": "PlayStation 5 Slim (PS5) Console Bundle with Disc Drive - Ghost of Yotei Edition -1TB SSD",
-   "url": "https://www.amazon.eg/dp/B0FZDC5VQX",
-   "price": 47999,
-   "old_price": null,
-   "in_stock": true,
-   "model": "disc",
-   "bundle": true,
-   "region": null,
-   "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:00:43+02:00"
+   "seen_at": "2026-11-15T14:04:40+02:00"
   },
   {
    "id": "amazon:B0FZTXLSL4#elkhalafawy",
@@ -230,7 +510,23 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:00:43+02:00"
+   "seen_at": "2026-11-15T14:04:40+02:00"
+  },
+  {
+   "id": "amazon:B0FZDC5VQX#Amazon.eg",
+   "source": "amazon",
+   "store": "Amazon.eg",
+   "seller": "Amazon.eg",
+   "title": "PlayStation 5 Slim (PS5) Console Bundle with Disc Drive - Ghost of Yotei Edition -1TB SSD",
+   "url": "https://www.amazon.eg/dp/B0FZDC5VQX",
+   "price": 47999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:04:40+02:00"
   },
   {
    "id": "amazon:B08LQZGF76#elkhalafawy",
@@ -246,7 +542,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:00:43+02:00"
+   "seen_at": "2026-11-15T14:04:40+02:00"
   },
   {
    "id": "noon:N70022612V",
@@ -262,7 +558,7 @@
    "bundle": false,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70022609V#Belk Electronics",
@@ -271,30 +567,14 @@
    "seller": "Belk Electronics",
    "title": "Sony PlayStation 5 Slim Console (International Version) Disc Version With Controller - New Model 2023",
    "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
-   "price": 48602,
+   "price": 47520,
    "old_price": null,
    "in_stock": true,
    "model": "disc",
    "bundle": false,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
-  },
-  {
-   "id": "noon:N70022609V#EgyGamer",
-   "source": "noon",
-   "store": "Noon",
-   "seller": "EgyGamer",
-   "title": "Sony PlayStation 5 Slim Console (International Version) Disc Version With Controller - New Model 2023",
-   "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
-   "price": 48195,
-   "old_price": null,
-   "in_stock": true,
-   "model": "disc",
-   "bundle": false,
-   "region": "International",
-   "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70022609V#TheGameCave",
@@ -310,7 +590,23 @@
    "bundle": false,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
+  },
+  {
+   "id": "noon:N70022609V#EgyGamer",
+   "source": "noon",
+   "store": "Noon",
+   "seller": "EgyGamer",
+   "title": "Sony PlayStation 5 Slim Console (International Version) Disc Version With Controller - New Model 2023",
+   "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/",
+   "price": 48195,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": "International",
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70022609V#Abo Ali Stores",
@@ -326,7 +622,7 @@
    "bundle": false,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70022609V#Ehab Group",
@@ -342,39 +638,23 @@
    "bundle": false,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
-   "id": "noon:N70023443V#TOP",
+   "id": "noon:N70023443V",
    "source": "noon",
    "store": "Noon",
-   "seller": "TOP",
+   "seller": null,
    "title": "Sony PlayStation 5 (UAE Version) Console Digital Version With Controller - New Model 2023",
    "url": "https://www.noon.com/egypt-en/playstation-5-uae-version-console-digital-version-with-controller-new-model-2023/N70023443V/p/",
-   "price": 44988,
+   "price": 44650,
    "old_price": null,
    "in_stock": true,
    "model": "digital",
    "bundle": false,
    "region": "UAE",
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:13+02:00"
-  },
-  {
-   "id": "noon:N70023443V#Belk Electronics",
-   "source": "noon",
-   "store": "Noon",
-   "seller": "Belk Electronics",
-   "title": "Sony PlayStation 5 (UAE Version) Console Digital Version With Controller - New Model 2023",
-   "url": "https://www.noon.com/egypt-en/playstation-5-uae-version-console-digital-version-with-controller-new-model-2023/N70023443V/p/",
-   "price": 45259,
-   "old_price": null,
-   "in_stock": true,
-   "model": "digital",
-   "bundle": false,
-   "region": "UAE",
-   "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70449966V",
@@ -390,7 +670,7 @@
    "bundle": true,
    "region": "KSA",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70022611V#Belk Electronics",
@@ -399,14 +679,14 @@
    "seller": "Belk Electronics",
    "title": "Sony PlayStation 5 Disc Version Slim Console With Controller (UAE Version)",
    "url": "https://www.noon.com/egypt-en/playstation-5-disc-version-slim-console-with-controller-uae-version/N70022611V/p/",
-   "price": 48825,
+   "price": 48015,
    "old_price": null,
    "in_stock": true,
    "model": "disc",
    "bundle": false,
    "region": "UAE",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70022611V#Abo Ali Stores",
@@ -422,7 +702,7 @@
    "bundle": false,
    "region": "UAE",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70022611V#Salem Group",
@@ -438,7 +718,7 @@
    "bundle": false,
    "region": "UAE",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70024184V",
@@ -454,7 +734,7 @@
    "bundle": true,
    "region": "KSA",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70027875V#Abo Ali Stores",
@@ -470,7 +750,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70027875V#TheGameCave",
@@ -486,7 +766,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70030460V#gamesworldegypt",
@@ -502,7 +782,7 @@
    "bundle": false,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70030460V#TheGameCave",
@@ -518,7 +798,23 @@
    "bundle": false,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
+  },
+  {
+   "id": "noon:N70023437V#Belk Electronics",
+   "source": "noon",
+   "store": "Noon",
+   "seller": "Belk Electronics",
+   "title": "Sony PlayStation 5 (UAE Version) Console Disc Version With Controller - New Model 2023",
+   "url": "https://www.noon.com/egypt-en/playstation-5-uae-version-console-disc-version-with-controller-new-model-2023/N70023437V/p/",
+   "price": 48029,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": "UAE",
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70023437V#Cyber City",
@@ -534,23 +830,7 @@
    "bundle": false,
    "region": "UAE",
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:13+02:00"
-  },
-  {
-   "id": "noon:N70023437V#Belk Electronics",
-   "source": "noon",
-   "store": "Noon",
-   "seller": "Belk Electronics",
-   "title": "Sony PlayStation 5 (UAE Version) Console Disc Version With Controller - New Model 2023",
-   "url": "https://www.noon.com/egypt-en/playstation-5-uae-version-console-disc-version-with-controller-new-model-2023/N70023437V/p/",
-   "price": 48667,
-   "old_price": null,
-   "in_stock": true,
-   "model": "disc",
-   "bundle": false,
-   "region": "UAE",
-   "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70023437V#Abo Ali Stores",
@@ -566,7 +846,7 @@
    "bundle": false,
    "region": "UAE",
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70025151V",
@@ -582,7 +862,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70051818V#Abo Ali Stores",
@@ -598,7 +878,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70051818V#TheGameCave",
@@ -614,7 +894,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70051791V#TheGameCave",
@@ -630,7 +910,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70051791V#Efreshhaa",
@@ -646,7 +926,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70027878V#Abo Ali Stores",
@@ -662,7 +942,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70027878V#TheGameCave",
@@ -678,7 +958,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70051745V#TheGameCave",
@@ -694,7 +974,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70051745V#Efreshhaa",
@@ -710,7 +990,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70052258V#TheGameCave",
@@ -726,7 +1006,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70052258V#Efreshhaa",
@@ -742,7 +1022,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70052163V",
@@ -758,7 +1038,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70022608V",
@@ -774,7 +1054,7 @@
    "bundle": false,
    "region": "KSA",
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70116654V",
@@ -790,7 +1070,7 @@
    "bundle": true,
    "region": "KSA",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70030474V",
@@ -806,23 +1086,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
-  },
-  {
-   "id": "noon:https://www.noon.com/egypt-en/playstation-5-uae-version-digital-edition-console-with-controller/N52486861A/p/?o=f12e10164fb4f0ba",
-   "source": "noon",
-   "store": "Noon",
-   "seller": null,
-   "title": "Sony PlayStation 5 (UAE Version) Digital Edition Console With Controller",
-   "url": "https://www.noon.com/egypt-en/playstation-5-uae-version-digital-edition-console-with-controller/N52486861A/p/",
-   "price": 45999,
-   "old_price": null,
-   "in_stock": true,
-   "model": "digital",
-   "bundle": false,
-   "region": "UAE",
-   "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:https://www.noon.com/egypt-en/playstation-5-console-disc-version-with-controller/N40633047A/p/?o=a7d7507e9e10c51d",
@@ -838,7 +1102,23 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
+  },
+  {
+   "id": "noon:https://www.noon.com/egypt-en/playstation-5-uae-version-digital-edition-console-with-controller/N52486861A/p/?o=f12e10164fb4f0ba",
+   "source": "noon",
+   "store": "Noon",
+   "seller": null,
+   "title": "Sony PlayStation 5 (UAE Version) Digital Edition Console With Controller",
+   "url": "https://www.noon.com/egypt-en/playstation-5-uae-version-digital-edition-console-with-controller/N52486861A/p/",
+   "price": 45999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": false,
+   "region": "UAE",
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70684117V",
@@ -854,7 +1134,7 @@
    "bundle": true,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70027877V",
@@ -870,7 +1150,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:N70221417V",
@@ -886,7 +1166,7 @@
    "bundle": true,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "noon:https://www.noon.com/egypt-en/playstation-5-digital-edition-console-with-extra-blue-controller/N53314496A/p/?o=c9c7bba09c4f96ec",
@@ -902,7 +1182,71 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:13+02:00"
+   "seen_at": "2026-11-15T14:13:15+02:00"
+  },
+  {
+   "id": "noon:https://www.noon.com/egypt-en/playstation-5-uae-version-disc-version-console-with-controller/N52486863A/p/?o=df2d7b9ad7c4537b",
+   "source": "noon",
+   "store": "Noon",
+   "seller": null,
+   "title": "Sony PlayStation 5 (UAE Version) Disc Version Console With Controller",
+   "url": "https://www.noon.com/egypt-en/playstation-5-uae-version-disc-version-console-with-controller/N52486863A/p/",
+   "price": 48500,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": "UAE",
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:13:15+02:00"
+  },
+  {
+   "id": "noon:N70025213V",
+   "source": "noon",
+   "store": "Noon",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Disc",
+   "url": "https://www.noon.com/egypt-en/playstation-5-slim-disc/N70025213V/p/",
+   "price": 49999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:13:15+02:00"
+  },
+  {
+   "id": "noon:N70267726V",
+   "source": "noon",
+   "store": "Noon",
+   "seller": null,
+   "title": "Sony PlayStation®5 Console - Ghost of Yotei™ Black Limited Edition Bundle - International Version",
+   "url": "https://www.noon.com/egypt-en/playstation-5-console-ghost-of-yotei-black-limited-edition-bundle-international-version/N70267726V/p/",
+   "price": 49999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": true,
+   "region": "International",
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:13:15+02:00"
+  },
+  {
+   "id": "noon:N70249200V",
+   "source": "noon",
+   "store": "Noon",
+   "seller": null,
+   "title": "Sony PlayStation 5 Digital Edition with EA SPORTS FC 26 Bundle",
+   "url": "https://www.noon.com/egypt-en/playstation-5-digital-edition-with-ea-sports-fc-26-bundle/N70249200V/p/",
+   "price": 44940,
+   "old_price": null,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:13:15+02:00"
   },
   {
    "id": "jumia:/sony-playstation-5-slim-digital-edition-console-22899160.html",
@@ -918,7 +1262,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:24+02:00"
+   "seen_at": "2026-11-15T14:13:26+02:00"
   },
   {
    "id": "jumia:/sony-playstation-5-slim-console-disc-1-tb-storage-capacity-white-1-year-warranty-135064899.html",
@@ -934,7 +1278,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:24+02:00"
+   "seen_at": "2026-11-15T14:13:26+02:00"
   },
   {
    "id": "jumia:/sony-playstation-5-standard-slim-1-year-warranty-135282552.html",
@@ -950,7 +1294,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:24+02:00"
+   "seen_at": "2026-11-15T14:13:26+02:00"
   },
   {
    "id": "jumia:/sony-playstation-5-slim-console-1-tb-ssd-with-1-wireless-controller-25967483.html",
@@ -966,7 +1310,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:24+02:00"
+   "seen_at": "2026-11-15T14:13:26+02:00"
   },
   {
    "id": "jumia:/sony-playstation-5-slim-disc-edition-with-2-dualsense-wireless-controller-2023-international-version-133975499.html",
@@ -979,10 +1323,10 @@
    "old_price": null,
    "in_stock": true,
    "model": "disc",
-   "bundle": false,
+   "bundle": true,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:24+02:00"
+   "seen_at": "2026-11-15T14:13:26+02:00"
   },
   {
    "id": "carrefour:/mafegy/en/sony-playstation-consoles/sony-playstation-5-console-ps5-disc-version-with-controller/p/0659359108723",
@@ -998,7 +1342,55 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:36+02:00"
+   "seen_at": "2026-11-15T14:13:39+02:00"
+  },
+  {
+   "id": "btech:https://btech.com/en/p/sony-playstation-5-slim-1tb-ssd-with-dualsense-wireless-controller-white",
+   "source": "btech",
+   "store": "B.TECH",
+   "seller": null,
+   "title": "Sony Playstation 5 Slim 1 TB ,1 Controllers ,White - with DualSense Wireless Controller",
+   "url": "https://btech.com/en/p/sony-playstation-5-slim-1tb-ssd-with-dualsense-wireless-controller-white",
+   "price": 48999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:14:03+02:00"
+  },
+  {
+   "id": "btech:https://btech.com/en/p/sony-ps5-controller-white",
+   "source": "btech",
+   "store": "B.TECH",
+   "seller": null,
+   "title": "Sony Playstation 5 Standard Edition 1 TB ,1 Controllers ,White",
+   "url": "https://btech.com/en/p/sony-ps5-controller-white",
+   "price": 49999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:14:03+02:00"
+  },
+  {
+   "id": "btech:https://btech.com/en/p/sony-playstation5-slim-digital-1tb-ssd-controller-white",
+   "source": "btech",
+   "store": "B.TECH",
+   "seller": null,
+   "title": "Sony Playstation 5 Slim Digital Edition 1 TB ,1 Controllers ,White",
+   "url": "https://btech.com/en/p/sony-playstation5-slim-digital-1tb-ssd-controller-white",
+   "price": 44999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/ae4544fb-98e6-4a48-9936-81d93d9297d8",
@@ -1014,7 +1406,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/281e01c7-da02-4179-a1a7-fa112f31654e",
@@ -1030,23 +1422,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
-  },
-  {
-   "id": "btech:https://btech.com/en/p/sony-ps5-digital-edition-dualsense-controller-bk",
-   "source": "btech",
-   "store": "B.TECH",
-   "seller": null,
-   "title": "Sony Playstation 5 Digital Edition 1 TB ,2 Controllers ,Black",
-   "url": "https://btech.com/en/p/sony-ps5-digital-edition-dualsense-controller-bk",
-   "price": 55990,
-   "old_price": null,
-   "in_stock": true,
-   "model": "digital",
-   "bundle": true,
-   "region": null,
-   "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/6a8d84ca-ff4d-4e77-aa68-49f4e8dea1dd",
@@ -1062,7 +1438,23 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
+  },
+  {
+   "id": "btech:https://btech.com/en/p/sony-ps5-digital-edition-dualsense-controller-bk",
+   "source": "btech",
+   "store": "B.TECH",
+   "seller": null,
+   "title": "Sony Playstation 5 Digital Edition 1 TB ,2 Controllers ,Black",
+   "url": "https://btech.com/en/p/sony-ps5-digital-edition-dualsense-controller-bk",
+   "price": 55990,
+   "old_price": null,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/2573c0a0-5aee-4e6f-a2bd-d1e145fa7499",
@@ -1078,7 +1470,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/7571ca0e-8ef3-4823-b712-1994a1e4acf3",
@@ -1094,7 +1486,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/sony-ps5-slimdisc-1tb-controller-international2023",
@@ -1110,23 +1502,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
-  },
-  {
-   "id": "btech:https://btech.com/en/p/4fd3f45e-406d-41c8-ac4f-b291e206365e",
-   "source": "btech",
-   "store": "B.TECH",
-   "seller": null,
-   "title": "Sony Playstation 5 Disc Edition 1 TB ,1 Controllers ,White",
-   "url": "https://btech.com/en/p/4fd3f45e-406d-41c8-ac4f-b291e206365e",
-   "price": 49999,
-   "old_price": null,
-   "in_stock": true,
-   "model": "disc",
-   "bundle": false,
-   "region": null,
-   "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/332ae25e-d4b4-434d-ad24-a5cf216a3c0c",
@@ -1142,7 +1518,39 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
+  },
+  {
+   "id": "btech:https://btech.com/en/p/4fd3f45e-406d-41c8-ac4f-b291e206365e",
+   "source": "btech",
+   "store": "B.TECH",
+   "seller": null,
+   "title": "Sony Playstation 5 Disc Edition 1 TB ,1 Controllers ,White",
+   "url": "https://btech.com/en/p/4fd3f45e-406d-41c8-ac4f-b291e206365e",
+   "price": 49999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:14:03+02:00"
+  },
+  {
+   "id": "btech:https://btech.com/en/p/df3e7a55-6c42-4b9f-b656-6b8c91922c0e",
+   "source": "btech",
+   "store": "B.TECH",
+   "seller": null,
+   "title": "Sony PlayStation Console PlayStation 5 KSA Version 825 GB ,1 Controllers ,White - CFI-2116A-FC26VCH",
+   "url": "https://btech.com/en/p/df3e7a55-6c42-4b9f-b656-6b8c91922c0e",
+   "price": 52999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": true,
+   "region": "KSA",
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/0d103398-90f2-4712-a1fc-984d73a235c5",
@@ -1158,7 +1566,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/sony-ps5-digital-30th-ksa-version-1tb-dualsense-controller-cfi-2016b01y",
@@ -1174,7 +1582,7 @@
    "bundle": true,
    "region": "KSA",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/0df49c12-4671-494b-8b6d-9634eb11095f",
@@ -1190,7 +1598,7 @@
    "bundle": true,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "btech:https://btech.com/en/p/de438625-2f46-48dc-841e-dd8ba45f20ce",
@@ -1206,7 +1614,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:08:57+02:00"
+   "seen_at": "2026-11-15T14:14:03+02:00"
   },
   {
    "id": "2b:https://2b.com.eg/en/sony-playstation-5-standard-slim.html#2B",
@@ -1222,7 +1630,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:09:05+02:00"
+   "seen_at": "2026-11-15T14:14:12+02:00"
   },
   {
    "id": "raneen:https://www.raneen.com/en/sony-playstation-5-slim-disc-edition-console-with-controller-1tb-ssd-uae-version-cfi-2000-white#Raneen",
@@ -1238,7 +1646,23 @@
    "bundle": false,
    "region": "UAE",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:09:15+02:00"
+   "seen_at": "2026-11-15T14:14:43+02:00"
+  },
+  {
+   "id": "raya:https://www.rayashop.com/en/sony-playstation-5-slim-edition-1-tb-2-controllers-white-cfi-2016-1",
+   "source": "raya",
+   "store": "Raya Shop",
+   "seller": null,
+   "title": "SONY PlayStation 5 Slim Edition, 1 TB, 2 Controllers, White - CFI-2016",
+   "url": "https://www.rayashop.com/en/sony-playstation-5-slim-edition-1-tb-2-controllers-white-cfi-2016-1",
+   "price": 49999,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:14:52+02:00"
   },
   {
    "id": "elaraby:https://www.elarabygroup.com/en/sony-playstation-ps5tm-slim-edition-white-color-cfi-2016",
@@ -1254,7 +1678,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:09:36+02:00"
+   "seen_at": "2026-11-15T14:15:01+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/35796/sony-playstation-5-slim-console-disc-edition-1tb-1y-warranty#Games 2 Egypt",
@@ -1270,7 +1694,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/45123/sony-playstation-5-slim-console-disc-edition-1tb-ibs-1y-warranty#Games 2 Egypt",
@@ -1286,7 +1710,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/44282/sony-playstation-5-slim-console-digital-edition-825-gb-1y-warranty#Games 2 Egypt",
@@ -1297,12 +1721,12 @@
    "url": "https://www.games2egypt.com/Product/44282/sony-playstation-5-slim-console-digital-edition-825-gb-1y-warranty",
    "price": 43999,
    "old_price": null,
-   "in_stock": false,
+   "in_stock": true,
    "model": "digital",
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/44452/sony-playstation-5-slim-console-digital-edition-ea-sports-fc-26-bundle-825-gb-1y-warranty#Games 2 Egypt",
@@ -1318,7 +1742,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/45157/sony-playstation-5-slim-console-fortnite-digital-edition-825-gb-1y-warranty#Games 2 Egypt",
@@ -1334,7 +1758,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/44727/playstation-5-slim-disc-edition-console-ghost-of-yotei-gold-limited-edition-bundle-1tb-1y-warranty#Games 2 Egypt",
@@ -1350,7 +1774,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/44854/sony-playstation-5-slim-console-disc-edition-1tb-ibs-30months-warranty#Games 2 Egypt",
@@ -1366,7 +1790,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/38622/sony-playstation-5-slim-console-digital-edition-1tb-1y-warranty#Games 2 Egypt",
@@ -1382,7 +1806,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/45170/sony-playstation-5-slim-digital-edition-30th-anniversary-limited-edition-bundle-1tb-1y-warranty#Games 2 Egypt",
@@ -1398,7 +1822,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/23269/playstation-5-console-ibs-2y-warranty#Games 2 Egypt",
@@ -1414,7 +1838,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/25966/playstation-5-console-ibs-1y-warranty#Games 2 Egypt",
@@ -1430,7 +1854,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/26567/playstation-5-console-1y-warranty#Games 2 Egypt",
@@ -1446,7 +1870,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/27855/playstation-5-console-digital-edition-horizon-forbidden-west-bundle#Games 2 Egypt",
@@ -1462,7 +1886,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/29215/playstation-5-console-1y-warranty-horizon-forbidden-west-bundle#Games 2 Egypt",
@@ -1478,7 +1902,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/34929/playstation-5-console-3-months-warranty#Games 2 Egypt",
@@ -1494,7 +1918,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/34942/sony-playstation-5-console-standard-edition-international-version#Games 2 Egypt",
@@ -1510,7 +1934,7 @@
    "bundle": false,
    "region": "International",
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/36108/playstation-5-console-ea-sports-fc-24-voucher-1y-warranty#Games 2 Egypt",
@@ -1526,7 +1950,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/37150/playstation-5-console-marvels-spider-man-2-limited-edition-bundle#Games 2 Egypt",
@@ -1542,7 +1966,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/38699/sony-playstation-5-slim-console-disc-edition-1tb-1m-warranty#Games 2 Egypt",
@@ -1558,7 +1982,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "games2egypt:https://www.games2egypt.com/Product/41565/sony-playstation-5-slim-console-with-astro-bot-disc-edition-1tb#Games 2 Egypt",
@@ -1574,7 +1998,23 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:10:22+02:00"
+   "seen_at": "2026-11-15T14:15:41+02:00"
+  },
+  {
+   "id": "games2egypt:https://www.games2egypt.com/Product/41571/playstation-5-digital-console-slim-with-extra-wireless-controller#Games 2 Egypt",
+   "source": "games2egypt",
+   "store": "Games2Egypt",
+   "seller": "Games 2 Egypt",
+   "title": "PlayStation 5 Digital Console Slim With Extra Wireless Controller",
+   "url": "https://www.games2egypt.com/Product/41571/playstation-5-digital-console-slim-with-extra-wireless-controller",
+   "price": 33999,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:15:41+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/sony-playstation-5-slim-console-825-gb-digital-edition#Games World Egypt",
@@ -1590,7 +2030,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/sony-playstation-5-slim-bluray-edition-new-2023-model#Games World Egypt",
@@ -1606,7 +2046,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/sony-playstation-5-slim-standard-ghost-of-yotei-black-limited-edition-console-only-(no-digital-game-code)#Games World Egypt",
@@ -1622,7 +2062,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/sony-playstation-5-slim-tra-digital-edition-825gb-ibs-1y-warranty#Games World Egypt",
@@ -1638,7 +2078,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/sony-playstation-5-slim-console-(disc-edition)-1tb-ibs-1y-warranty#Games World Egypt",
@@ -1654,7 +2094,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/playstation-5-console-1tb-fortnite-flowering-chaos-bundle-(disc-edition)#Games World Egypt",
@@ -1670,7 +2110,39 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
+  },
+  {
+   "id": "gamesworld:https://www.gamesworldegypt.com/sony-playstation-5-console-standard-edition-slim-disc-console-with-extra-dualsense-wireless-controller-white#Games World Egypt",
+   "source": "gamesworld",
+   "store": "Games World Egypt",
+   "seller": "Games World Egypt",
+   "title": "Sony Playstation 5 Console Standard Edition Slim Disc Console With Extra Dualsense Wireless Controller White",
+   "url": "https://www.gamesworldegypt.com/sony-playstation-5-console-standard-edition-slim-disc-console-with-extra-dualsense-wireless-controller-white",
+   "price": 37449,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:16:57+02:00"
+  },
+  {
+   "id": "gamesworld:https://www.gamesworldegypt.com/playstation-5-digital-console-slim-with-extra-wireless-controller#Games World Egypt",
+   "source": "gamesworld",
+   "store": "Games World Egypt",
+   "seller": "Games World Egypt",
+   "title": "PlayStation 5 Digital Console Slim With Extra Wireless Controller",
+   "url": "https://www.gamesworldegypt.com/playstation-5-digital-console-slim-with-extra-wireless-controller",
+   "price": 31564,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/playstation-5-slim-digital-edition-fortnite-cobalt-star-bundle#Games World Egypt",
@@ -1686,7 +2158,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/sony-playstation-5-slim-digital-edition-new-2023-model-international-version#Games World Egypt",
@@ -1702,7 +2174,7 @@
    "bundle": false,
    "region": "International",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/ps5-console-horizon-forbidden-west-bundle#Games World Egypt",
@@ -1718,7 +2190,7 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/sony-playstation-5-digital-edition#Games World Egypt",
@@ -1734,7 +2206,23 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
+  },
+  {
+   "id": "gamesworld:https://www.gamesworldegypt.com/sony-playstation-5-bluray-edition-sony-dualsense-wireless-controller#Games World Egypt",
+   "source": "gamesworld",
+   "store": "Games World Egypt",
+   "seller": "Games World Egypt",
+   "title": "Sony Playstation 5 Bluray Edition + Sony DualSense Wireless Controller",
+   "url": "https://www.gamesworldegypt.com/sony-playstation-5-bluray-edition-sony-dualsense-wireless-controller",
+   "price": 45604,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamesworld:https://www.gamesworldegypt.com/sony-playstation-5-bluray-edition#Games World Egypt",
@@ -1750,7 +2238,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:11:47+02:00"
+   "seen_at": "2026-11-15T14:16:57+02:00"
   },
   {
    "id": "gamerzlounge:https://gamerzlounge.me/playstation-5-console-disc-version-ps5-console-in-egypt#GamerZlounge",
@@ -1766,7 +2254,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:12:05+02:00"
+   "seen_at": "2026-11-15T14:17:06+02:00"
   },
   {
    "id": "gamerzlounge:https://gamerzlounge.me/playstation-5-digital-edition-console-ps5-console-in-egypt#GamerZlounge",
@@ -1782,7 +2270,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:12:05+02:00"
+   "seen_at": "2026-11-15T14:17:06+02:00"
   },
   {
    "id": "gamerzlounge:https://gamerzlounge.me/playstation-5-disc-console-(new-slim-model-)-middle-east-version-ps5-console-in-egypt#GamerZlounge",
@@ -1798,7 +2286,7 @@
    "bundle": false,
    "region": "Middle East",
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:12:05+02:00"
+   "seen_at": "2026-11-15T14:17:06+02:00"
   },
   {
    "id": "gamerzlounge:https://gamerzlounge.me/playstation-5-fc26-bundle-disc-console-ps5-console-in-egypt#GamerZlounge",
@@ -1814,26 +2302,10 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:12:05+02:00"
+   "seen_at": "2026-11-15T14:17:06+02:00"
   },
   {
-   "id": "shamy:ps5-slim-digital-825gb",
-   "source": "shamy",
-   "store": "Shamy Stores",
-   "seller": null,
-   "title": "PlayStation 5 Slim Matte 825GB – Digital Edition 1 Year Warranty",
-   "url": "https://shamystores.com/products/ps5-slim-digital-825gb",
-   "price": 44990,
-   "old_price": 48990,
-   "in_stock": true,
-   "model": "digital",
-   "bundle": false,
-   "region": null,
-   "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:12:25+02:00"
-  },
-  {
-   "id": "shamy:ps5-slim-disc-matte-1y-warranty",
+   "id": "shamy:42414945828960",
    "source": "shamy",
    "store": "Shamy Stores",
    "seller": null,
@@ -1846,15 +2318,31 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:12:25+02:00"
+   "seen_at": "2026-11-15T14:17:31+02:00"
   },
   {
-   "id": "shamy:ps5-digital-bundle-10-digital-games",
+   "id": "shamy:42428642000992",
    "source": "shamy",
    "store": "Shamy Stores",
    "seller": null,
-   "title": "PS5 Digital Bundle – (Digital) Console + 10 Digital Games",
-   "url": "https://shamystores.com/products/ps5-digital-bundle-10-digital-games",
+   "title": "PlayStation 5 Slim Matte 825GB – Digital Edition 1 Year Warranty",
+   "url": "https://shamystores.com/products/ps5-slim-digital-825gb",
+   "price": 44990,
+   "old_price": 48990,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:17:31+02:00"
+  },
+  {
+   "id": "shamy:67678903664736",
+   "source": "shamy",
+   "store": "Shamy Stores",
+   "seller": null,
+   "title": "PS5 Digital Bundle – (Digital) Console + 10 Digital Games Pri",
+   "url": "https://shamystores.com/products/ps5-digital-bundle-10-digital-games?variant=67678903664736",
    "price": 47990,
    "old_price": 51990,
    "in_stock": true,
@@ -1862,15 +2350,31 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:12:25+02:00"
+   "seen_at": "2026-11-15T14:17:31+02:00"
   },
   {
-   "id": "shamy:ps5-digital-bundle-physical-console-10-digital-games",
+   "id": "shamy:67678903697504",
    "source": "shamy",
    "store": "Shamy Stores",
    "seller": null,
-   "title": "PS5 Digital Bundle – (Physical) Console + 10 Digital Games",
-   "url": "https://shamystores.com/products/ps5-digital-bundle-physical-console-10-digital-games",
+   "title": "PS5 Digital Bundle – (Digital) Console + 10 Digital Games Sec",
+   "url": "https://shamystores.com/products/ps5-digital-bundle-10-digital-games?variant=67678903697504",
+   "price": 47990,
+   "old_price": 51990,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:17:31+02:00"
+  },
+  {
+   "id": "shamy:67678903763040",
+   "source": "shamy",
+   "store": "Shamy Stores",
+   "seller": null,
+   "title": "PS5 Digital Bundle – (Physical) Console + 10 Digital Games Pri",
+   "url": "https://shamystores.com/products/ps5-digital-bundle-physical-console-10-digital-games?variant=67678903763040",
    "price": 51490,
    "old_price": 55490,
    "in_stock": true,
@@ -1878,10 +2382,122 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:12:25+02:00"
+   "seen_at": "2026-11-15T14:17:31+02:00"
   },
   {
-   "id": "xprs:sony-playstation-5-slim-standard-edition-2-year-warranty",
+   "id": "shamy:67678903795808",
+   "source": "shamy",
+   "store": "Shamy Stores",
+   "seller": null,
+   "title": "PS5 Digital Bundle – (Physical) Console + 10 Digital Games Sec",
+   "url": "https://shamystores.com/products/ps5-digital-bundle-physical-console-10-digital-games?variant=67678903795808",
+   "price": 51490,
+   "old_price": 55490,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:17:31+02:00"
+  },
+  {
+   "id": "shamy:39961844809824",
+   "source": "shamy",
+   "store": "Shamy Stores",
+   "seller": null,
+   "title": "PlayStation 5 Slim – Disc Edition 1Y Warranty",
+   "url": "https://shamystores.com/products/ps5-slim-disc-edition",
+   "price": 48490,
+   "old_price": 52490,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:17:31+02:00"
+  },
+  {
+   "id": "shamy:42745779355744",
+   "source": "shamy",
+   "store": "Shamy Stores",
+   "seller": null,
+   "title": "PlayStation 5 Digital Edition – Fortnite Flowering Chaos Holiday Bundle",
+   "url": "https://shamystores.com/products/ps5-digital-fortnite-edition",
+   "price": 45490,
+   "old_price": 49490,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:17:31+02:00"
+  },
+  {
+   "id": "shamy:39969768636512",
+   "source": "shamy",
+   "store": "Shamy Stores",
+   "seller": null,
+   "title": "PlayStation 5 Slim ( Disc Edition ) 1 Year Warranty",
+   "url": "https://shamystores.com/products/playstation-5-slim-disc-edition-1y-warranty",
+   "price": 42990,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:17:31+02:00"
+  },
+  {
+   "id": "shamy:40433616978016",
+   "source": "shamy",
+   "store": "Shamy Stores",
+   "seller": null,
+   "title": "PlayStation 5 Slim ( Digital Edition ) 1 Year Warranty",
+   "url": "https://shamystores.com/products/playstation-5-slim-digital-edition-1y-warranty",
+   "price": 44990,
+   "old_price": 48990,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:17:31+02:00"
+  },
+  {
+   "id": "shamy:67600443310176",
+   "source": "shamy",
+   "store": "Shamy Stores",
+   "seller": null,
+   "title": "PS5 Slim Digital Edition – Wolverine Limited Edition",
+   "url": "https://shamystores.com/products/ps5-slim-digital-wolverine-edition",
+   "price": 53490,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:17:31+02:00"
+  },
+  {
+   "id": "shamy:43009306001504",
+   "source": "shamy",
+   "store": "Shamy Stores",
+   "seller": null,
+   "title": "PlayStation 5 Slim Disc Console – Ghost of Yōtei Limited Edition",
+   "url": "https://shamystores.com/products/ps5-slim-disc-ghost-of-yotei-limited-edition",
+   "price": 53490,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:17:31+02:00"
+  },
+  {
+   "id": "xprs:46043794342106",
    "source": "xprs",
    "store": "XPRS",
    "seller": null,
@@ -1894,10 +2510,10 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:12:31+02:00"
+   "seen_at": "2026-11-15T14:17:46+02:00"
   },
   {
-   "id": "xprs:sony-playstation-5-slim-standard-edition",
+   "id": "xprs:68146599493850",
    "source": "xprs",
    "store": "XPRS",
    "seller": null,
@@ -1910,10 +2526,10 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:12:31+02:00"
+   "seen_at": "2026-11-15T14:17:46+02:00"
   },
   {
-   "id": "xprs:sony-playstation-5-slim-standard-edition-1-year-warranty-1",
+   "id": "xprs:68146579603674",
    "source": "xprs",
    "store": "XPRS",
    "seller": null,
@@ -1926,10 +2542,42 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:12:31+02:00"
+   "seen_at": "2026-11-15T14:17:46+02:00"
   },
   {
-   "id": "tharaa:sony-playstation-5-slim-disc-edition-1tb",
+   "id": "xprs:46043809710298",
+   "source": "xprs",
+   "store": "XPRS",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Digital Edition - 2 Year Warranty",
+   "url": "https://myxprs.com/products/sony-playstation-5-slim-digital-edition-2-year-warranty",
+   "price": 49799,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:17:46+02:00"
+  },
+  {
+   "id": "xprs:68146550505690",
+   "source": "xprs",
+   "store": "XPRS",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Digital Edition - 1 Year Warranty",
+   "url": "https://myxprs.com/products/sony-playstation-5-slim-digital-edition-1year-warranty",
+   "price": 47799,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:17:46+02:00"
+  },
+  {
+   "id": "tharaa:44274086346804",
    "source": "tharaa",
    "store": "Tharaa Store",
    "seller": null,
@@ -1942,7 +2590,55 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:12:38+02:00"
+   "seen_at": "2026-11-15T14:17:59+02:00"
+  },
+  {
+   "id": "dream2000:47393129595019",
+   "source": "dream2000",
+   "store": "Dream 2000",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim, 1TB SSD, with Wireless Controller (IBS Egypt 1Y Warranty) White / 1TB",
+   "url": "https://dream2000.com/en/products/sony-playstation-5-slim-1tb-ssd-with-wireless-controller-ibs-egypt-1y-warranty",
+   "price": 54499,
+   "old_price": 58799,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:18:10+02:00"
+  },
+  {
+   "id": "dream2000:47060531675275",
+   "source": "dream2000",
+   "store": "Dream 2000",
+   "seller": null,
+   "title": "Sony Playstation 5 Slim 1T ,1 Controllers ,White White",
+   "url": "https://dream2000.com/en/products/sony-playstation-5-slim-with-controller-white",
+   "price": 51799,
+   "old_price": 56699,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:18:10+02:00"
+  },
+  {
+   "id": "ahw:48479368937690",
+   "source": "ahw",
+   "store": "AHW Store",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Disc 2023",
+   "url": "https://ahw.store/products/sony-playstation-5-slim-disc-2023",
+   "price": 46440,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:18:19+02:00"
   },
   {
    "id": "miami:27060",
@@ -1958,7 +2654,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:14:56+02:00"
+   "seen_at": "2026-11-15T14:18:26+02:00"
   },
   {
    "id": "miami:14441",
@@ -1974,7 +2670,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:14:56+02:00"
+   "seen_at": "2026-11-15T14:18:26+02:00"
   },
   {
    "id": "ts3era:1145935",
@@ -1990,7 +2686,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:15:08+02:00"
+   "seen_at": "2026-11-15T14:18:35+02:00"
   },
   {
    "id": "ts3era:1124736",
@@ -2006,7 +2702,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:15:08+02:00"
+   "seen_at": "2026-11-15T14:18:35+02:00"
   },
   {
    "id": "ts3era:1119865",
@@ -2022,7 +2718,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:15:08+02:00"
+   "seen_at": "2026-11-15T14:18:35+02:00"
   },
   {
    "id": "ts3era:242623",
@@ -2038,7 +2734,7 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": true,
-   "seen_at": "2026-11-15T10:15:08+02:00"
+   "seen_at": "2026-11-15T14:18:35+02:00"
   },
   {
    "id": "ts3era:50845",
@@ -2054,7 +2750,23 @@
    "bundle": true,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:15:08+02:00"
+   "seen_at": "2026-11-15T14:18:35+02:00"
+  },
+  {
+   "id": "ts3era:46774",
+   "source": "ts3era",
+   "store": "Ts3era",
+   "seller": null,
+   "title": "PlayStation 5 Console – بلاي ستيشن 5 بوحدة تحكم لاسلكية من سوني",
+   "url": "https://ts3era.com/product/sony-playstation-5-console/",
+   "price": 38499,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:18:35+02:00"
   },
   {
    "id": "shiko:18103",
@@ -2070,8 +2782,984 @@
    "bundle": false,
    "region": null,
    "slim_confirmed": false,
-   "seen_at": "2026-11-15T10:15:14+02:00"
+   "seen_at": "2026-11-15T14:18:37+02:00"
+  },
+  {
+   "id": "gamesspot:https://gamesspoteg.com/en/products/108/",
+   "source": "gamesspot",
+   "store": "Games Spot",
+   "seller": null,
+   "title": "PS5 SLIM DIGITAL NEW",
+   "url": "https://gamesspoteg.com/en/products/108/",
+   "price": 42500,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:18+02:00"
+  },
+  {
+   "id": "gamesspot:https://gamesspoteg.com/en/products/110/",
+   "source": "gamesspot",
+   "store": "Games Spot",
+   "seller": null,
+   "title": "PS5 SLIM CD EDITION NEW",
+   "url": "https://gamesspoteg.com/en/products/110/",
+   "price": 45500,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:18+02:00"
+  },
+  {
+   "id": "gamesspot:https://gamesspoteg.com/en/products/215/",
+   "source": "gamesspot",
+   "store": "Games Spot",
+   "seller": null,
+   "title": "PS5 SLIM CD Ghost of Yōtei™ – Limited Edition Console",
+   "url": "https://gamesspoteg.com/en/products/215/",
+   "price": 49000,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:18+02:00"
+  },
+  {
+   "id": "gamesspot:https://gamesspoteg.com/en/products/979/",
+   "source": "gamesspot",
+   "store": "Games Spot",
+   "seller": null,
+   "title": "PS5 SLIM DIGITAL NEW Wolverine",
+   "url": "https://gamesspoteg.com/en/products/979/",
+   "price": 46000,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:18+02:00"
+  },
+  {
+   "id": "gamerscolony:61517",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "PLUS BUNDLE Sony PlayStation 5 Slim Console (Disc Edition) - 1TB - 2Y Warranty New",
+   "url": "https://gamerscolony.net/product/plus-bundle-sony-playstation-5-slim-console-disc-edition-1tb-2y-warranty/?variation_id=61517&attribute_pa_condition=new",
+   "price": 51499,
+   "old_price": 60000,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:56994",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console (Disc Edition) - 1TB - 2Y Warranty LA3EB Offer New",
+   "url": "https://gamerscolony.net/product/sony-playstation-5-slim-console-disc-edition-1tb-2y-warranty-la3eb-offer/?variation_id=56994&attribute_pa_condition=new",
+   "price": 45999,
+   "old_price": 51999,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:52361",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "PlayStation 5 Slim Console – Ghost of Yotei Black Limited Edition Bundle WITHOUT CODE",
+   "url": "https://gamerscolony.net/product/playstation-5-slim-console-ghost-of-yotei-black-limited-edition-bundle/",
+   "price": 51999,
+   "old_price": 54999,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:51709",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console (Digital Edition) – 825GB – 2Y Warranty FC26 BUNDLE",
+   "url": "https://gamerscolony.net/product/sony-playstation-5-slim-console-digital-edition-825gb-2y-warranty-shela-offer/",
+   "price": 41499,
+   "old_price": 49000,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:51151",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "PlayStation 5 Slim Console 1TB – EA SPORTS FC26 Bundle",
+   "url": "https://gamerscolony.net/product/playstation-5-console-1-tb-ea-sports-fc-26-bundle/",
+   "price": 43999,
+   "old_price": 55999,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:57001",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console (Digital Edition) - 825GB - 2Y Warranty Shela Offer New",
+   "url": "https://gamerscolony.net/product/sony-playstation-5-slim-console-digital-edition-1tb-2y-warranty-shela-offer/?variation_id=57001&attribute_pa_condition=new",
+   "price": 46499,
+   "old_price": 55000,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:48933",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "PlayStation 5 Slim Console – Ghost of Yotei Gold Limited Edition Bundle",
+   "url": "https://gamerscolony.net/product/playstation-5-slim-console-ghost-of-yotei-gold-limited-edition-bundle/",
+   "price": 51999,
+   "old_price": 56999,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:33008",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console (Disc Edition) Gamer Bundle – 1TB – 2Y Warranty",
+   "url": "https://gamerscolony.net/product/sony-playstation-5-slim-console-disc-edition-gamer-bundle-1tb-2y-warranty/",
+   "price": 52999,
+   "old_price": 59999,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:57009",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "SHELA BUNDLE Sony PlayStation 5 Slim Console (Disc Edition) - 1TB - 2Y Warranty New",
+   "url": "https://gamerscolony.net/product/sony-playstation-5-slim-console-disc-edition-1tb-2y-warranty-bundle-offer/?variation_id=57009&attribute_pa_condition=new",
+   "price": 53499,
+   "old_price": 65000,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:29727",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "PlayStation 5 SlIM Console – 30th Anniversary Limited Edition – 1TB – 2Y Warranty",
+   "url": "https://gamerscolony.net/product/playstation5-slim-console-30th-anniversary-limited-edition-1tb-2y-warranty/",
+   "price": 48199,
+   "old_price": 59000,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:57901",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console SOLO (Digital Edition) - 1TB - 2Y Warranty New",
+   "url": "https://gamerscolony.net/product/playstation-5-slim-digital-verision/?variation_id=57901&attribute_pa_condition=new",
+   "price": 42999,
+   "old_price": 53000,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamerscolony:57903",
+   "source": "gamerscolony",
+   "store": "Gamers Colony",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console SOLO (Disc Edition) - 1TB - 2Y Warranty New",
+   "url": "https://gamerscolony.net/product/playstation-5-slim-cd-verision/?variation_id=57903&attribute_pa_condition=new",
+   "price": 45299,
+   "old_price": 49000,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamecave:44287959302298",
+   "source": "gamecave",
+   "store": "The Game Cave Egypt",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console Disc edition with Wireless Controller",
+   "url": "https://thegamecaveegypt.com/products/sony-playstation-5-slim-console-with-wireless-controller",
+   "price": 45999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamecave:45818321567898",
+   "source": "gamecave",
+   "store": "The Game Cave Egypt",
+   "seller": null,
+   "title": "PlayStation®5 Slim Digital Edition With 2 Controllers",
+   "url": "https://thegamecaveegypt.com/products/playstation®5-slim-digital-edition-with-2-controllers",
+   "price": 31499,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamecave:45845618491546",
+   "source": "gamecave",
+   "store": "The Game Cave Egypt",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Disc Edition Console with 2 Wireless Controller",
+   "url": "https://thegamecaveegypt.com/products/sony-playstation-5-slim-disc-edition-console-with-2-wireless-controller",
+   "price": 49999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "gamecave:44671649120410",
+   "source": "gamecave",
+   "store": "The Game Cave Egypt",
+   "seller": null,
+   "title": "PlayStation®5 Slim Digital Edition",
+   "url": "https://thegamecaveegypt.com/products/playstation®5-digital-edition-slim",
+   "price": 42999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:23+02:00"
+  },
+  {
+   "id": "ennap:51444831846683",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console Digital Edition 825GB",
+   "url": "https://ennap.com/products/sony-playstation-5-slim-console?variant=51444831846683",
+   "price": 34999,
+   "old_price": 37799,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "ennap:51004120629531",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console Digital Edition 1TB",
+   "url": "https://ennap.com/products/sony-playstation-5-slim-console?variant=51004120629531",
+   "price": 35999,
+   "old_price": 38899,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "ennap:51721048949019",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console Digital Edition 825GB / EA SPORTS FC 26 Bundle",
+   "url": "https://ennap.com/products/sony-playstation-5-slim-console?variant=51721048949019",
+   "price": 34499,
+   "old_price": 37299,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "ennap:51756748570907",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Console Digital Edition 825GB / Fortnite Flowering Chaos Bundle",
+   "url": "https://ennap.com/products/sony-playstation-5-slim-console?variant=51756748570907",
+   "price": 34999,
+   "old_price": 37799,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "ennap:52122375127323",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony PlayStation 5 PS5 Slim Console(Standard Edition) Middle East / 825GB / Standard",
+   "url": "https://ennap.com/products/sony-playstation-5-ps5-slim-consolestandard-edition?variant=52122375127323",
+   "price": 34999,
+   "old_price": 39699,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": "Middle East",
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "ennap:52122375160091",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony PlayStation 5 PS5 Slim Console(Standard Edition) Middle East / 825GB / Two DualSense Wireless Controllers",
+   "url": "https://ennap.com/products/sony-playstation-5-ps5-slim-consolestandard-edition?variant=52122375160091",
+   "price": 37999,
+   "old_price": 43099,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": "Middle East",
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "ennap:49327201157403",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony PlayStation 5 PS5 Slim Console(Standard Edition) Middle East / 1TB / Standard",
+   "url": "https://ennap.com/products/sony-playstation-5-ps5-slim-consolestandard-edition?variant=49327201157403",
+   "price": 38999,
+   "old_price": 40999,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": "Middle East",
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "ennap:51444676034843",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony PlayStation 5 PS5 Slim Console(Standard Edition) Middle East / 1TB / Two DualSense Wireless Controllers",
+   "url": "https://ennap.com/products/sony-playstation-5-ps5-slim-consolestandard-edition?variant=51444676034843",
+   "price": 39999,
+   "old_price": 45399,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": "Middle East",
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "ennap:46774005858587",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony Playstation 5 Console With 2 Wireless Controller White and Black",
+   "url": "https://ennap.com/products/sony-playstation-5-console-with-2-wireless-controller-white-and-black",
+   "price": 25299,
+   "old_price": 28899,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "ennap:46773637349659",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony Playstation 5 Console White Wireless Controller 12 Months Warranty",
+   "url": "https://ennap.com/products/sony-playstation-5-console-white-wireless-controller?variant=46773637349659",
+   "price": 30999,
+   "old_price": 33499,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "ennap:46773637382427",
+   "source": "ennap",
+   "store": "Ennap",
+   "seller": null,
+   "title": "Sony Playstation 5 Console White Wireless Controller 24 Months Official Warranty",
+   "url": "https://ennap.com/products/sony-playstation-5-console-white-wireless-controller?variant=46773637382427",
+   "price": 31019,
+   "old_price": 33599,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:32+02:00"
+  },
+  {
+   "id": "cairodrop:49589962866981",
+   "source": "cairodrop",
+   "store": "Cairo Drop",
+   "seller": null,
+   "title": "PS5 Sony PlayStation 5 Console Digital Edition, 1TB SSD, with 2 Dual Sense Wireless Controllers",
+   "url": "https://cairodrop.com/products/ps5-sony-playstation-5-console-digital-edition-1tb-ssd-with-2-dual-sense-wireless-controllers",
+   "price": 47849,
+   "old_price": 54009,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:33+02:00"
+  },
+  {
+   "id": "cairodrop:49589962834213",
+   "source": "cairodrop",
+   "store": "Cairo Drop",
+   "seller": null,
+   "title": "Sony GM655 Playstation 5 Standard Slim (1 year warranty)",
+   "url": "https://cairodrop.com/products/sony-gm655-playstation-5-standard-slim-1-year-warranty",
+   "price": 43999,
+   "old_price": 48289,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:33+02:00"
+  },
+  {
+   "id": "rizkalla:53155545055519",
+   "source": "rizkalla",
+   "store": "Rizkalla",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Edition White (IBS)",
+   "url": "https://riz.shop/en/products/sony-playstation-5-slim-digital-edition-825-gb-1-controllers-white",
+   "price": 51000,
+   "old_price": 55080,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:34+02:00"
+  },
+  {
+   "id": "ehab:117512",
+   "source": "ehab",
+   "store": "Ehab Group",
+   "seller": null,
+   "title": "SONY PS5 STANDARD SLIM – GHOST OF YOTEI LIMITED EDITION 1TB BLACK",
+   "url": "https://www.ehabgroup.com/shop/sony-ps5-standard-slim-ghost-of-yotei-limited-edition-1tb-black/",
+   "price": 51299,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:37+02:00"
+  },
+  {
+   "id": "ehab:115096",
+   "source": "ehab",
+   "store": "Ehab Group",
+   "seller": null,
+   "title": "SONY PS5 STANDARD EDITION SLIM",
+   "url": "https://www.ehabgroup.com/shop/sony-ps5-standard-edition-slim/",
+   "price": 49999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:37+02:00"
+  },
+  {
+   "id": "alfrensia:125500",
+   "source": "alfrensia",
+   "store": "Alfrensia",
+   "seller": null,
+   "title": "Sony Playstation 5 Slim Digital Edition 825Gb Ssd Black Console",
+   "url": "https://alfrensia.com/en/product/sony-playstation-5-digital-edition-825gb-ssd-black-console/",
+   "price": 23999,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:40+02:00"
+  },
+  {
+   "id": "alfrensia:125499",
+   "source": "alfrensia",
+   "store": "Alfrensia",
+   "seller": null,
+   "title": "Sony Playstation 5 Slim Digital Edition 1Tb Ssd Console",
+   "url": "https://alfrensia.com/en/product/sony-playstation-5-digital-edition-1tb-ssd-console/",
+   "price": 24999,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:40+02:00"
+  },
+  {
+   "id": "alfrensia:125498",
+   "source": "alfrensia",
+   "store": "Alfrensia",
+   "seller": null,
+   "title": "Sony Playstation 5 Slim Disc Edition 1Tb Ssd White Console",
+   "url": "https://alfrensia.com/en/product/sony-playstation-5-slim-disc-edition-1tb-ssd-white-console/",
+   "price": 28999,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:40+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/playstation-5-slim-digital-edition.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PlayStation 5 slim Digital Version 825 Gb",
+   "url": "https://egygamer.com/en/playstation-5-slim-digital-edition.html",
+   "price": 43000,
+   "old_price": null,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/new-playstation-5-disc-version-console.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PlayStation 5 Slim Disc Version",
+   "url": "https://egygamer.com/en/new-playstation-5-disc-version-console.html",
+   "price": 45500,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/playstation-5-slim-digital-version-1tb.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PlayStation 5 Slim Digital Version 1TB",
+   "url": "https://egygamer.com/en/playstation-5-slim-digital-version-1tb.html",
+   "price": 34500,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/playstationr5-digital-edition-ea-sports-fc-26-bundle.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PlayStation®5 Digital Edition – EA SPORTS FC 26 Bundle",
+   "url": "https://egygamer.com/en/playstationr5-digital-edition-ea-sports-fc-26-bundle.html",
+   "price": 37999,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/playstationr5-console-1tb-ea-sports-fctm-26-bundle.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PlayStation 5 Console 1TB – EA SPORTS FC 26 Bundle",
+   "url": "https://egygamer.com/en/playstationr5-console-1tb-ea-sports-fctm-26-bundle.html",
+   "price": 35999,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/playstationr5-digital-edition-fortnite-flowering-chaos-bundle.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PlayStation®5 Digital Edition - Fortnite Flowering Chaos Bundle",
+   "url": "https://egygamer.com/en/playstationr5-digital-edition-fortnite-flowering-chaos-bundle.html",
+   "price": 27000,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/playstation-5-ghost-of-yotei-limited-edition-disc-console-uae-version.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PlayStation 5 + Ghost of Yotei Limited Edition Disc Console- UAE Version",
+   "url": "https://egygamer.com/en/playstation-5-ghost-of-yotei-limited-edition-disc-console-uae-version.html",
+   "price": 39499,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": "UAE",
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/playstation-5-digital-edition-console-with-2-controllers.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PlayStation 5 Digital Edition Console With 2 Controllers",
+   "url": "https://egygamer.com/en/playstation-5-digital-edition-console-with-2-controllers.html",
+   "price": 32000,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/playstation-5-digital-edition-astro-bot.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "Playstation 5 Digital Edition - Astro Bot",
+   "url": "https://egygamer.com/en/playstation-5-digital-edition-astro-bot.html",
+   "price": 28500,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/ps5-digital-edition-fornite-bundle.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PS5 Digital Edition Fortnite Bundle",
+   "url": "https://egygamer.com/en/ps5-digital-edition-fornite-bundle.html",
+   "price": 29999,
+   "old_price": null,
+   "in_stock": false,
+   "model": "digital",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/ps5-console-ea-sports-fc-24-bundle.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PS5 Console + EA Sports FC 24 Bundle",
+   "url": "https://egygamer.com/en/ps5-console-ea-sports-fc-24-bundle.html",
+   "price": 32900,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "egygamer:https://egygamer.com/en/playstation-5-console-god-of-war-ragnarok-ps5.html",
+   "source": "egygamer",
+   "store": "EgyGamer",
+   "seller": null,
+   "title": "PlayStation 5 Console + God of War Ragnarök (PS5)",
+   "url": "https://egygamer.com/en/playstation-5-console-god-of-war-ragnarok-ps5.html",
+   "price": 35555,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": true,
+   "region": null,
+   "slim_confirmed": false,
+   "seen_at": "2026-11-15T14:19:52+02:00"
+  },
+  {
+   "id": "tahagame:https://tahagame.com/product/playstation-5-slim-console-digital-edition-825gb-3-months-warranty/#Taha Game Shop",
+   "source": "tahagame",
+   "store": "Taha Game Shop",
+   "seller": "Taha Game Shop",
+   "title": "PlayStation 5 Slim Console Digital Edition 825GB 3 Months Warranty",
+   "url": "https://tahagame.com/product/playstation-5-slim-console-digital-edition-825gb-3-months-warranty/",
+   "price": 43000,
+   "old_price": null,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:19:57+02:00"
+  },
+  {
+   "id": "imedia:https://www.imediastores.com/product/sony-playstation-5-standard-slim-console-international-warranty/#iMedia stores",
+   "source": "imedia",
+   "store": "iMedia Stores",
+   "seller": "iMedia stores",
+   "title": "Sony PlayStation 5 Standard Slim Console (International Warranty)",
+   "url": "https://www.imediastores.com/product/sony-playstation-5-standard-slim-console-international-warranty/",
+   "price": 39990,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": "International",
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:20:20+02:00"
+  },
+  {
+   "id": "imedia:https://www.imediastores.com/product/sony-playstation-5-standard-slim-console-ibs-1y-warranty/#iMedia stores",
+   "source": "imedia",
+   "store": "iMedia Stores",
+   "seller": "iMedia stores",
+   "title": "Sony PlayStation 5 Standard Slim Console (IBS 1Y Warranty)",
+   "url": "https://www.imediastores.com/product/sony-playstation-5-standard-slim-console-ibs-1y-warranty/",
+   "price": 49990,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:20:20+02:00"
+  },
+  {
+   "id": "imedia:https://www.imediastores.com/product/sony-playstation-5-standard-slim-console-ibs-30m-warranty/#iMedia stores",
+   "source": "imedia",
+   "store": "iMedia Stores",
+   "seller": "iMedia stores",
+   "title": "Sony PlayStation 5 Standard Slim Console (IBS 30M Warranty)",
+   "url": "https://www.imediastores.com/product/sony-playstation-5-standard-slim-console-ibs-30m-warranty/",
+   "price": 55990,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:20:20+02:00"
+  },
+  {
+   "id": "aghezty:https://aghezty.com/ar/products/PlayStation/Sony-PlayStation-5-Slim-Digital-Edition-–-825GB-–-White30076/",
+   "source": "aghezty",
+   "store": "Aghezty",
+   "seller": null,
+   "title": "سوني بلايستيشن 5 سليم، ديجيتال، بمساحة 825 جيجا بايت – أبيض",
+   "url": "https://aghezty.com/ar/products/PlayStation/Sony-PlayStation-5-Slim-Digital-Edition-–-825GB-–-White30076/",
+   "price": 42999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "digital",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:20:24+02:00"
+  },
+  {
+   "id": "aghezty:https://aghezty.com/ar/products/PlayStation/Sony-PlayStation-5-Slim-Disc-Edition(CD-and-Hard-Drive)1TB-–-White-30075/",
+   "source": "aghezty",
+   "store": "Aghezty",
+   "seller": null,
+   "title": "سوني بلايستيشن 5 سليم، النسخه الكامله CD و هارد ، 1 تيرابايت – أبيض",
+   "url": "https://aghezty.com/ar/products/PlayStation/Sony-PlayStation-5-Slim-Disc-Edition(CD-and-Hard-Drive)1TB-–-White-30075/",
+   "price": 49880,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:20:24+02:00"
+  },
+  {
+   "id": "elshennawy:https://www.elshennawy.com/index.php?route=product%2Fproduct&product_id=755",
+   "source": "elshennawy",
+   "store": "El Shennawy Stores",
+   "seller": null,
+   "title": "PS5 Slim بسعة 1 تيرابايت with International Warranty",
+   "url": "https://www.elshennawy.com/index.php?route=product%2Fproduct&product_id=755",
+   "price": 45500,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": "International",
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:20:31+02:00"
+  },
+  {
+   "id": "iklinik:https://iklinikstores.com/product?slug=sony-playstation-5-slim-standard-edition&combination_id=804",
+   "source": "iklinik",
+   "store": "iKlinik Stores",
+   "seller": null,
+   "title": "Sony PlayStation 5 Slim Standard Edition — 1TB, White",
+   "url": "https://iklinikstores.com/product?slug=sony-playstation-5-slim-standard-edition&combination_id=804",
+   "price": 48500,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:20:34+02:00"
+  },
+  {
+   "id": "vodafone:https://eshop.vodafone.com.eg/en/prod/play-station-5-slim-edition-console-1-years-official-warranty#Vodafone Egypt E-Shop",
+   "source": "vodafone",
+   "store": "Vodafone Shop",
+   "seller": "Vodafone Egypt E-Shop",
+   "title": "PlayStation 5 Slim | Disk | Dual sense | Official Warranty",
+   "url": "https://eshop.vodafone.com.eg/en/prod/play-station-5-slim-edition-console-1-years-official-warranty",
+   "price": 47999,
+   "old_price": null,
+   "in_stock": true,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:20:36+02:00"
+  },
+  {
+   "id": "sigma:https://sigma-computer.com/en/item?id=sony-playstation-5-disc-version-silm-ps5-console-with-dual-sense-controller-white-9e5z2gydmxvc#Sigma Computer",
+   "source": "sigma",
+   "store": "Sigma Computer",
+   "seller": "Sigma Computer",
+   "title": "Sony Playstation 5 Disc Version Silm PS5 Console With Dual Sense Controller - White",
+   "url": "https://sigma-computer.com/en/item?id=sony-playstation-5-disc-version-silm-ps5-console-with-dual-sense-controller-white-9e5z2gydmxvc",
+   "price": 34999,
+   "old_price": null,
+   "in_stock": false,
+   "model": "disc",
+   "bundle": false,
+   "region": null,
+   "slim_confirmed": true,
+   "seen_at": "2026-11-15T14:20:39+02:00"
   }
  ],
- "generated_at": "2026-11-15T10:15:39+02:00"
+ "generated_at": "2026-11-15T14:20:40+02:00"
 }
