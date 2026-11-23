@@ -7,6 +7,7 @@ import '../data/repo.dart';
 import 'theme.dart';
 import 'trend_chart.dart';
 import 'widgets.dart';
+import 'price_check_status.dart';
 
 class HomePage extends StatelessWidget {
   final Repo repo;
@@ -37,19 +38,13 @@ class HomePage extends StatelessWidget {
             ),
           ]),
           actions: [
-            if (repo.loading)
-              const Padding(
-                padding: EdgeInsets.all(18),
-                child: SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2.4)),
-              )
-            else
-              IconButton(onPressed: repo.refresh, icon: const Icon(Icons.refresh_rounded)),
+            RefreshPricesButton(repo: repo),
           ],
         ),
         SliverPadding(
           padding: const EdgeInsets.fromLTRB(16, 4, 16, 28),
           sliver: SliverList.list(children: [
-            if (repo.error != null) _Banner(repo.error!),
+            PriceCheckStatus(repo: repo),
             ModelSwitch(repo: repo),
             const SizedBox(height: 10),
             _FilterRow(repo: repo),
@@ -302,27 +297,6 @@ class _Distribution extends StatelessWidget {
       ),
     );
   }
-}
-
-class _Banner extends StatelessWidget {
-  final String text;
-  const _Banner(this.text);
-
-  @override
-  Widget build(BuildContext context) => Container(
-        margin: const EdgeInsets.only(bottom: 12),
-        padding: const EdgeInsets.all(12),
-        decoration: BoxDecoration(
-          color: Palette.amber.withValues(alpha: .1),
-          borderRadius: BorderRadius.circular(14),
-          border: Border.all(color: Palette.amber.withValues(alpha: .4)),
-        ),
-        child: Row(children: [
-          const Icon(Icons.wifi_off_rounded, color: Palette.amber, size: 18),
-          const SizedBox(width: 10),
-          Expanded(child: Text(text, style: const TextStyle(fontSize: 12.5))),
-        ]),
-      );
 }
 
 class _Empty extends StatelessWidget {

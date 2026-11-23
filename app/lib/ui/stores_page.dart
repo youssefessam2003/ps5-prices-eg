@@ -5,6 +5,7 @@ import '../data/models.dart';
 import '../data/repo.dart';
 import 'theme.dart';
 import 'widgets.dart';
+import 'price_check_status.dart';
 
 class StoresPage extends StatelessWidget {
   final Repo repo;
@@ -27,6 +28,7 @@ class StoresPage extends StatelessWidget {
         floating: true,
         title: const Text('Stores', style: TextStyle(fontWeight: FontWeight.w900, fontSize: 22)),
         actions: [
+          RefreshPricesButton(repo: repo),
           IconButton(
             tooltip: 'Data source',
             icon: const Icon(Icons.tune_rounded),
@@ -37,6 +39,7 @@ class StoresPage extends StatelessWidget {
       SliverPadding(
         padding: const EdgeInsets.fromLTRB(16, 0, 16, 100),
         sliver: SliverList.list(children: [
+          PriceCheckStatus(repo: repo),
           Card(
             child: Padding(
               padding: const EdgeInsets.all(16),

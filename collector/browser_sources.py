@@ -7,7 +7,8 @@ import re
 import time
 
 from classify import classify
-from http_sources import make
+from http_sources import make, metric, warning
+from discovery import canonical_url, same_store
 
 SEARCH_JS = {
     "amazon": r"""
@@ -58,6 +59,15 @@ WAIT_FOR = {
     "carrefour": 'a[href*="/p/"]',
 }
 
+NEXT_PAGE_JS = r"""
+() => {
+  const links = [...document.querySelectorAll('a[href]')];
+  const next = links.find(a => a.matches('a.s-pagination-next, a[rel~="next"]') ||
+    /^(next|next page|التالي|التالية)$/i.test((a.getAttribute('aria-label') || a.title || a.innerText || '').trim()));
+  return next && next.getAttribute('aria-disabled') !== 'true' ? next.href : null;
+}
+"""
+
 AMAZON_OFFERS_JS = r"""
 () => [...document.querySelectorAll('#aod-pinned-offer, #aod-offer')].map(o => {
   const txt = o.innerText;
@@ -103,7 +113,7 @@ class Browser:
         except Exception:
             pass
         body = self.page.inner_text("body")[:3000]
-        if BLOCK_RX.search(body) and "amazon" in url and "Sorry" in body:
+        if re.search(r"sorry.*blocked|verify (?:that )?you are human|robot check|enter the characters|access denied|unusual traffic", body, re.I):
             raise RuntimeError("blocked (bot check shown)")
         if BLOCK_RX.search(self.page.title() or ""):
             raise RuntimeError("blocked (bot check shown)")
@@ -122,16 +132,32 @@ class Browser:
 def marketplace(src, br: Browser):
     rows, seen = [], set()
     errors = []
-    for url in src["search"]:
-        try:
-            br.open(url, 3, WAIT_FOR[src["id"]])
-            for r in br.page.evaluate(SEARCH_JS[src["id"]]):
-                if r["key"] in seen:
-                    continue
-                seen.add(r["key"])
-                rows.append(r)
-        except Exception as e:  # keep other searches going
-            errors.append(f"{url}: {e}")
+    visited = set()
+    limit = src.get("max_search_pages", 3)
+    for first in src["search"]:
+        url = first
+        for page_number in range(limit):
+            if not url or url in visited or not same_store(src, url):
+                break
+            visited.add(url)
+            try:
+                br.open(url, 3, WAIT_FOR[src["id"]])
+                metric(src, "search_pages")
+                for r in br.page.evaluate(SEARCH_JS[src["id"]]):
+                    if r["key"] in seen:
+                        continue
+                    seen.add(r["key"])
+                    rows.append(r)
+                next_url = br.page.evaluate(NEXT_PAGE_JS)
+                url = canonical_url(url, next_url) if next_url else None
+                if url and page_number == limit - 1:
+                    warning(src, f"Search page limit reached ({limit}); coverage is partial")
+            except Exception as e:  # keep other searches going
+                errors.append(f"{url}: {e}")
+                break
+    metric(src, "search_results", len(rows))
+    for e in errors:
+        warning(src, e)
     if not rows and errors:
         raise RuntimeError("; ".join(errors)[:300])
 
@@ -157,7 +183,8 @@ def marketplace(src, br: Browser):
                     offers = br.page.evaluate(NOON_OFFERS_JS)
             else:
                 offers = []
-        except Exception:
+        except Exception as e:
+            warning(src, f"Additional sellers unavailable for {r['key']}: {type(e).__name__}")
             offers = []
         if offers:
             out.pop()  # replace the single search-result row by the per-seller rows

@@ -4,6 +4,7 @@ import '../data/models.dart';
 import '../data/repo.dart';
 import 'theme.dart';
 import 'widgets.dart';
+import 'price_check_status.dart';
 
 enum Sort { cheapest, priciest, biggestDrop }
 
@@ -47,6 +48,7 @@ class _OffersPageState extends State<OffersPage> {
         floating: true,
         title: const Text('All offers', style: TextStyle(fontWeight: FontWeight.w900, fontSize: 22)),
         actions: [
+          RefreshPricesButton(repo: repo),
           PopupMenuButton<Sort>(
             icon: const Icon(Icons.sort_rounded),
             initialValue: sort,
@@ -62,6 +64,7 @@ class _OffersPageState extends State<OffersPage> {
       SliverPadding(
         padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
         sliver: SliverList.list(children: [
+          PriceCheckStatus(repo: repo),
           ModelSwitch(repo: repo),
           const SizedBox(height: 10),
           TextField(
